@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { sumar } from '../src/calculadora.js';
+import { sumar,dividir } from '../src/calculadora.js';
 test('sumar 2 + 3 devuelve 5', () => {
 // Arrange (preparar): los datos de entrada
 const a = 2;
