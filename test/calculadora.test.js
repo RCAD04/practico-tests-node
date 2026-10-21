@@ -13,3 +13,11 @@ assert.equal(resultado, 5);
 test('sumar -4 + 1 devuelve -3', () => {
   assert.equal(sumar(-4, 1), -3);
 });
+
+test('dividir 10 / 2 devuelve 5', () => {
+  assert.equal(dividir(10, 2), 5);
+});
+
+test('dividir por cero lanza un error', () => {
+  assert.throws(() => dividir(10, 0), { message: 'No se puede dividir por cero' });
+});
